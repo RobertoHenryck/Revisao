@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        body {
+
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .atividades {
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            width: 800px;
+            margin: 0 auto;
+
+
+        }
+
+        .atividade2,
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        table {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="atividades">
+        <div>
+            <!-- Atividade 1  -->
+
+            <h1>Atividade 1 - Crie um HTML com título, parágrafo e uma imagem.</h1>
+            <h1>
+                Titulo
+            </h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo deserunt tenetur provident sed dolores
+                suscipit
+                adipisci accusamus distinctio natus, veniam quaerat architecto fugiat libero dolore blanditiis porro
+                minus
+                eum modi!</p>
+            <h2>imagem</h2>
+            <img src="img.png" alt="" width="200px" height="200px">
+        </div>
+
+
+        <div class="atividade2">
+            <!-- Atividade 2 -->
+
+            <h1>Atividade 2 - Faça um formulário com input, textarea e select. Crie um HTML com uma lista ordenada e uma
+                lista não ordenada.</h1>
+
+
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <label for="options">Opções:</label>
+                <select id="options" name="options">
+                    <option value="option1">Opção 1</option>
+                    <option value="option2">Opção 2</option>
+                    <option value="option3">Opção 3</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <h2>Lista Ordenada</h2>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+
+            <h2>Lista Não Ordenada</h2>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ul>
+
+
+        </div>
+
+        <div>
+
+            <!-- Atividade 3 -->
+
+            <h1>Atividade 3 - Insira uma tabela com 3 colunas e 4 linhas.</h1>
+
+
+            <table border="1">
+                <tr>
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                </tr>
+                <tr>
+                    <td>Linha 1, Coluna 1</td>
+                    <td>Linha 1, Coluna 2</td>
+                    <td>Linha 1, Coluna 3</td>
+                </tr>
+                <tr>
+                    <td>Linha 2, Coluna 1</td>
+                    <td>Linha 2, Coluna 2</td>
+                    <td>Linha 2, Coluna 3</td>
+                </tr>
+                <tr>
+                    <td>Linha 3, Coluna 1</td>
+                    <td>Linha 3, Coluna 2</td>
+                    <td>Linha 3, Coluna 3</td>
+                </tr>
+            </table>
+
+
+
+        </div>
+
+        <div>
+
+            <!-- Atividade 4 -->
+
+            <h1>
+                Atividade 4 - Crie um link que leve a outro site.
+            </h1>
+
+            <a href="hhttps://www.youtube.com" target="_blank">Visite o Youtube</a>
+
+        </div>
+
+        <div>
+
+            <!-- Atividade 5-->
+
+            <h1> Atividade 5 - Use tags semânticas: header, main, footer.</h1>
+
+
+            <header>
+                <h1>Bem-vindo ao meu site</h1>
+            </header>
+
+            <main>
+                <p>Este é o conteúdo principal do site.</p>
+            </main>
+
+            <footer>
+                <p>&copy; 2025 Todos os direitos reservados.</p>
+            </footer>
+
+        </div>
+
+        <div>
+
+            <!-- Atividade 6 -->
+
+            <h1>Atividade 6 - Faça uma lista ordenada com 5 itens.</h1>
+
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ol>
+
+        </div>
+
+        <div>
+            <!-- Atividade 7 -->
+
+            <h1>Atividade 7 - Use um campo type=email em um formulário.</h1>
+
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+
+        <div>
+<!-- Atividade 8 -->
+
+<h1>Atividade  8 - Crie um botão que não faz nada (só visual).</h1>
+
+<button>Botão Visual</button>
+
+        </div>
+
+        <div>
+            <!--Atividade 9-->
+
+            <h1>Atividade 9 - Insira um vídeo do YouTube com iframe. </h1>
+
+            <iframe src="https://www.youtube.com/watch?v=4ii4fzUNxyA" frameborder="0" width="800px" height="450px"></iframe>
+        </div>
+
+        <div>
+            <!-- Atividade 10 -->
+
+            <h1>Atividade 10 - Crie um formulário completo de cadastro de usuário.</h1>
+            <form>
+                <label for="nome">Nome de Usuário:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Cadastrar</button>
+            </form> 
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
